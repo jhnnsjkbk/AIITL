@@ -11,13 +11,10 @@ Like this, human effort is gradually reduced. We demonstrate that our approach o
 The AIITL-system is implemented in two image classification experiments - on benchmark and real-world satellite data.
 We present the evaluation below.
 
-## :chart_with_upwards_trend: Settings
-<img src="/results/ApproachMatrix.png"/>
-
 ## :checkered_flag: Results
 <img src="/results/benchmark_multi_dynamic_utility_scores_1.0_0.5.png"/>
-<img src="/results/benchmark_multi_dynamic_utility_scores_1.0_0.5.pdf"/>
-<img src="/results/sat_multi_dynamic_utility_scores_1.0_0.75.pdf"/>
+<img src="/results/benchmark_multi_dynamic_utility_scores_1.0_0.5_table.png"/>
+<img src="/results/sat_multi_dynamic_utility_scores_1.0_0.75.png"/>
 
 
 This ReadMe is structured as follows:
