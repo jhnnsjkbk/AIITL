@@ -6,18 +6,18 @@ Our approach then assesses which of the artificial experts is suitable for class
 Like this, human effort is gradually reduced. We demonstrate that our approach outperforms HITL systems by a large margin on benchmark data and real-world data.
 
 ## :bulb: Approach
-<img src="/results/AIITL.png" width="500" height="250" />
+<img src="/results/AIITL.png"/>
 
 The AIITL-system is implemented in two image classification experiments - on benchmark and real-world satellite data.
 We present the evaluation below.
 
 ## :chart_with_upwards_trend: Settings
-<img src="/results/ApproachMatrix.png" width="500" height="250" />
+<img src="/results/ApproachMatrix.png"/>
 
 ## :checkered_flag: Results
-<img src="/results/benchmark_multi_dynamic_utility_scores_1.0_0.5.png" width="500" height="250" />
-<img src="/results/benchmark_multi_dynamic_utility_scores_1.0_0.5.pdf" width="500" height="250" />
-<img src="/results/sat_multi_dynamic_utility_scores_1.0_0.75.pdf" width="500" height="250" />
+<img src="/results/benchmark_multi_dynamic_utility_scores_1.0_0.5.png"/>
+<img src="/results/benchmark_multi_dynamic_utility_scores_1.0_0.5.pdf"/>
+<img src="/results/sat_multi_dynamic_utility_scores_1.0_0.75.pdf"/>
 
 
 This ReadMe is structured as follows:
