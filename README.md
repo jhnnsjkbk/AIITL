@@ -15,6 +15,8 @@ We present the evaluation below.
 Results on benchmark datasets for image classification
 <img src="/results/benchmark_multi_dynamic_utility_scores_1.0_0.5.png"/ width="500" height="238">
 <img src="/results/sat_multi_dynamic_utility_scores_1.0_0.75.png"/ width="500" height="238">
+
+Results on datasets for classification of satellite images
 <img src="/results/benchmark_multi_dynamic_utility_scores_1.0_0.5_table.png"/ width="500" height="128">
 
 
