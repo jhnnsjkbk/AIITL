@@ -12,9 +12,10 @@ The AIITL-system is implemented in two image classification experiments - on ben
 We present the evaluation below.
 
 ## :checkered_flag: Results
-<img src="/results/benchmark_multi_dynamic_utility_scores_1.0_0.5.png"/>
-<img src="/results/sat_multi_dynamic_utility_scores_1.0_0.75.png"/>
-<img src="/results/benchmark_multi_dynamic_utility_scores_1.0_0.5_table.png"/>
+Results on benchmark datasets for image classification
+<img src="/results/benchmark_multi_dynamic_utility_scores_1.0_0.5.png"/ width="500" height="238">
+<img src="/results/sat_multi_dynamic_utility_scores_1.0_0.75.png"/ width="500" height="238">
+<img src="/results/benchmark_multi_dynamic_utility_scores_1.0_0.5_table.png"/ width="500" height="128">
 
 
 This ReadMe is structured as follows:
