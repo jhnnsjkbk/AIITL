@@ -5,6 +5,11 @@ The system creates artificial experts that incrementally learn to classify the u
 Our approach then assesses which of the artificial experts is suitable for classifying an unknown instance and allocates the instance accordingly. 
 Like this, human effort is gradually reduced. We demonstrate that our approach outperforms HITL systems by a large margin on a range of benchmark for image classification data.
 
+Find our pre-print on [arXiv](https://arxiv.org/pdf/2307.03003.pdf). <br>
+🚀: Our paper got accepted at [WI'23](https://wi2023.de/en/startseite-english/), nominated for the [best paper award](https://wi2023.de/en/best-paper-nominations/), and is part of four selected thought-provoking papers.
+
+by Johannes Jakubik\*, Daniel Weber, Patrick Hemmer, Michael Vössing, and Gerhard Satzger
+
 ## :bulb: Approach
 <img src="/results/AIITL.png"/>
 
