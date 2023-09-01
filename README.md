@@ -1,24 +1,20 @@
-# Reducing Human Effort in Human-in-the-Loop Systems
+# Improving the Efficiency of Human-in-the-Loop Systems: Adding Artificial to Human Experts
 
 This is a [PyTorch](https://pytorch.org) implementation of hybrid _AI-in-the-Loop_ (AIITL) systems.
 The system creates artificial experts that incrementally learn to classify the unknown data instances which previously had to be reviewed by a human expert. 
 Our approach then assesses which of the artificial experts is suitable for classifying an unknown instance and allocates the instance accordingly. 
-Like this, human effort is gradually reduced. We demonstrate that our approach outperforms HITL systems by a large margin on benchmark data and real-world data.
+Like this, human effort is gradually reduced. We demonstrate that our approach outperforms HITL systems by a large margin on a range of benchmark for image classification data.
 
 ## :bulb: Approach
 <img src="/results/AIITL.png"/>
 
-The AIITL-system is implemented in two image classification experiments - on benchmark and real-world satellite data.
 We present the evaluation below.
 
 ## :checkered_flag: Results
 Results on benchmark datasets for image classification
+
 <img src="/results/benchmark_multi_dynamic_utility_scores_1.0_0.5.png" width="500" height="238"/>
 <img src="/results/benchmark_multi_dynamic_utility_scores_1.0_0.5_table.png" width="500" height="128"/>
-
-Results on datasets for classification of satellite images
-<img src="/results/sat_multi_dynamic_utility_scores_1.0_0.75.png" width="500" height="238"/>
-
 
 
 This ReadMe is structured as follows:
@@ -41,31 +37,6 @@ To install the required packages in your conda environment, please run in the ro
 pip3 install -r requirements.txt
 ```
 
-### Datasets
-
-Some datasets need to be downloaded manually from GDrive:
-
-* To download the satellite data, please run in the root directory
-```
-mkdir data
-cd data
-mkdir processed
-cd raw
-gdown --id 1HsSQGc3bAcuG2Ao5sVkjKMr85qkX1bUX
-unzip SAT_CASE.zip
-cd ../..
-```
-* To download the ODIN tuning data, please run in the root directory
-```
-mkdir data
-cd data
-mkdir raw
-cd raw
-gdown --id 1uxGl1tsxOM8tJJd9KjOC-mo4B9qQ6iKW
-unzip iSUN_UCM.zip
-cd ../..
-```
-
 ## :speech_balloon: Reproduction of results
 
 ### Overview of arguments
@@ -77,7 +48,6 @@ cd ../..
 | Option      | Description                       |
 | :-----------           | :-----------                       |
 | benchmark             | Experiment on benchmark data      |
-| sat                   | Experiment on satellite data      |
 
 `-pipe_type`
 <br> (System type considered)
